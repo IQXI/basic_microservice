@@ -1,0 +1,12 @@
+{"level":"INFO","time":"2019-07-25T22:26:15.969+0300","caller":"basic_microservice/main.go:66","message":"Info msg"}
+{"level":"FATAL","time":"2019-07-25T22:26:15.969+0300","caller":"basic_microservice/main.go:67","message":"Fatal msg"}
+{"level":"INFO","time":1564082826784.698,"caller":"basic_microservice/main.go:60","message":"Info msg"}
+{"level":"FATAL","time":1564082826784.698,"caller":"basic_microservice/main.go:61","message":"Fatal msg"}
+{"level":"INFO","time":1564082842.9593303,"caller":"basic_microservice/main.go:60","message":"Info msg"}
+{"level":"FATAL","time":1564082842.9593303,"caller":"basic_microservice/main.go:61","message":"Fatal msg"}
+{"level":"INFO","time":"2019-07-25T22:27:37.372+0300","caller":"basic_microservice/main.go:60","message":"Info msg"}
+{"level":"FATAL","time":"2019-07-25T22:27:37.373+0300","caller":"basic_microservice/main.go:61","message":"Fatal msg"}
+{"level":"INFO","time":"2019-07-25T22:31:23.751+0300","caller":"basic_microservice/main.go:69","message":"Info msg"}
+{"level":"FATAL","time":"2019-07-25T22:31:23.751+0300","caller":"basic_microservice/main.go:70","message":"Fatal msg"}
+{"level":"INFO","time":"2019-07-25T22:33:28.055+0300","caller":"basic_microservice/main.go:69","message":"Info msg"}
+{"level":"FATAL","time":"2019-07-25T22:33:28.055+0300","caller":"basic_microservice/main.go:70","message":"Fatal msg"}
