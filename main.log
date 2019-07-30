@@ -1,2 +1,0 @@
-{"level":"INFO","time":"2019-07-24T21:08:12.113+0300","caller":"basic_microservice/main.go:31","message":"This is an INFO message with fields","region":"us-west","id":2}
-{"level":"INFO","time":"2019-07-24T21:08:32.767+0300","caller":"basic_microservice/main.go:31","message":"This is an INFO message with fields","region":"us-west","id":2}
