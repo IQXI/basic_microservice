@@ -1,15 +1,16 @@
 package logger
 
 import (
+	conf "basic_microservice/internal/config"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"log"
 )
 
-func GetLogger(vp map[string]interface{}) *zap.Logger {
+func GetLogger(vp conf.ConfigStruct) *zap.Logger {
 
 	var level zapcore.Level
-	switch vp["logLevel"] {
+	switch vp.Logger.Level {
 	case "DEBUG":
 		level = zapcore.DebugLevel
 	case "INFO":
@@ -23,7 +24,7 @@ func GetLogger(vp map[string]interface{}) *zap.Logger {
 	cfg := zap.Config{
 		Encoding:    "json",
 		Level:       zap.NewAtomicLevelAt(level),
-		OutputPaths: vp["outputs"].([]string),
+		OutputPaths: vp.Logger.Outputs,
 		EncoderConfig: zapcore.EncoderConfig{
 			MessageKey: "message",
 
