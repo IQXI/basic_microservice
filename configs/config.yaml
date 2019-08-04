@@ -1,0 +1,3 @@
+logger:
+  level: INFO #logger level
+  outputs: [stderr, logs\\main.log]
